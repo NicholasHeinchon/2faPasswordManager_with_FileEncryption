@@ -125,3 +125,11 @@ All encryption keys are stored in the `keys` directory within the application fo
 - **Backup Data**: Backup your passwords, salts, encrypted keys, and RSA key files to a selected directory.
 - **Restore Data**: Restore your data from a backup directory.
 - **Reset Password Manager**: Reset the application, which will erase all stored data. Use this only if necessary.
+
+- ## Installation
+
+To run this, you'll need to install a few dependencies. Make sure you have Python installed, then run the following `pip` command to install all required libraries:
+
+```bash
+pip install cryptography keyring pyotp Pillow qrcode tk
+
